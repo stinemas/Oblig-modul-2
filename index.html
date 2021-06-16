@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Oblig M2</title>
+</head>
+<body>
+    <div id="app"></div>
+
+    <!-- Quiz controller og view source -->
+    <script src="view_quiz.js"></script>
+    <script src="controller_quiz.js"></script>
+
+    <!-- Landing view og controller source -->
+    <script src="view_landing.js"></script>
+    <script src="controller_landing.js"></script>
+
+    <!-- Model source -->
+    <script src="model.js"></script>
+
+    <script>
+        function updateView() {
+            if (model.app.currentPage == 'quiz') updateQuizView();
+            if (model.app.currentPage == 'landing') updateLandingView();
+        }
+        updateView();
+    </script>
+
+</body>
+</html>
+
+
+<input type="radio" id="choose" name="qOne">
+
+<input type="radio" id="choose" name="qTwo">
+
+<input type="radio" id="choose" name="qTre">
+
+
+<p id="ansInp"></p>
