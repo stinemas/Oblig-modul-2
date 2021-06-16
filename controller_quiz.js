@@ -1,9 +1,13 @@
+//funksjon til en onclick på knapp som er i view_landing, så du kan navigere derfra
+//til quiz. 
 function goToQuiz() {
     model.app.currentPage = 'quiz';
     updateView();
 }
 
-
+//denne skal sette verdien bruker har skrevet i input feltet med id newQuiz
+//fra view_quiz fila i variabel nq. så sier vi at paragrafen med id quizInp
+//skal være lik denne variabelen så vi får se den printa på siden i p.
 function addQuiz() {
     let nq = document.querySelector('#newQuiz').value;
     document.querySelector('#quizInp').innerHTML = nq;
