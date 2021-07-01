@@ -87,7 +87,37 @@ function quizList() {
 
 
 
+{/* <button onmouseover="myDropDown()" class="dropbtn">Nye interesser</button>
+<span class="badge">${model.intrAlert}</span>
+<div id="dropDownMenu" class="dropDownIntr">
+  <h6>$//{interesseStu}</h6>
+  <a href="#" class="" onclick="newInterrest()">Stine</a>
+  <a href="#" class="" onclick="newInterrest()">Erlend</a>
+</div>
 
+
+
+<div class="dropdown" class="navnInfo">
+<button onmouseover="myDropDown()" class="dropbtn">Nye interesser</button>
+<span class="badge">${model.intrAlert}</span>
+<div id="dropDownMenu" class="dropDownIntr">
+  <h6>$//{interesseStu}</h6>
+  <a href="#" class="" onclick="newInterrest()">Stine</a>
+  <a href="#" class="" onclick="newInterrest()">Erlend</a>
+</div>
+</div>
+
+
+<div id="dropDownMenu" class="dropDownIntr">
+          <h6>$//{interesseStu}</h6>
+          <a href="#" class="" onclick="newInterrest()">Stine</a>
+          <a href="#" class="" onclick="newInterrest()">Erlend</a>
+        </div>
+
+<ul class="dropdown-menu">
+    <li onclick="newInterrest()"><a href="#">Erlend</a></li>
+    <li onclick="newInterrest()"><a href="#">Stine</a></li>
+</ul> */}
 
 
 
